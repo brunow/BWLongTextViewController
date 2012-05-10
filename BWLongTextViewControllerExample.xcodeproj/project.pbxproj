@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7492A21155C3D9E00CBEE32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7492A20155C3D9E00CBEE32 /* UIKit.framework */; };
+		E7492A23155C3D9E00CBEE32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7492A22155C3D9E00CBEE32 /* Foundation.framework */; };
+		E7492A25155C3D9E00CBEE32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7492A24155C3D9E00CBEE32 /* CoreGraphics.framework */; };
+		E7492A2B155C3D9E00CBEE32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7492A29155C3D9E00CBEE32 /* InfoPlist.strings */; };
+		E7492A2D155C3D9E00CBEE32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7492A2C155C3D9E00CBEE32 /* main.m */; };
+		E7492A31155C3D9E00CBEE32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7492A30155C3D9E00CBEE32 /* AppDelegate.m */; };
+		E7492A43155C3E1300CBEE32 /* BWLongTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7492A42155C3E1300CBEE32 /* BWLongTextViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7492A1C155C3D9E00CBEE32 /* BWLongTextViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWLongTextViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7492A20155C3D9E00CBEE32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7492A22155C3D9E00CBEE32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7492A24155C3D9E00CBEE32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7492A28155C3D9E00CBEE32 /* BWLongTextViewControllerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BWLongTextViewControllerExample-Info.plist"; sourceTree = "<group>"; };
+		E7492A2A155C3D9E00CBEE32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7492A2C155C3D9E00CBEE32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7492A2E155C3D9E00CBEE32 /* BWLongTextViewControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BWLongTextViewControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		E7492A2F155C3D9E00CBEE32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7492A30155C3D9E00CBEE32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7492A41155C3E1300CBEE32 /* BWLongTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWLongTextViewController.h; sourceTree = "<group>"; };
+		E7492A42155C3E1300CBEE32 /* BWLongTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWLongTextViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7492A19155C3D9E00CBEE32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7492A21155C3D9E00CBEE32 /* UIKit.framework in Frameworks */,
+				E7492A23155C3D9E00CBEE32 /* Foundation.framework in Frameworks */,
+				E7492A25155C3D9E00CBEE32 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7492A11155C3D9E00CBEE32 = {
+			isa = PBXGroup;
+			children = (
+				E7492A40155C3E1300CBEE32 /* BWLongTextViewController */,
+				E7492A26155C3D9E00CBEE32 /* BWLongTextViewControllerExample */,
+				E7492A1F155C3D9E00CBEE32 /* Frameworks */,
+				E7492A1D155C3D9E00CBEE32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7492A1D155C3D9E00CBEE32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7492A1C155C3D9E00CBEE32 /* BWLongTextViewControllerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7492A1F155C3D9E00CBEE32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7492A20155C3D9E00CBEE32 /* UIKit.framework */,
+				E7492A22155C3D9E00CBEE32 /* Foundation.framework */,
+				E7492A24155C3D9E00CBEE32 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7492A26155C3D9E00CBEE32 /* BWLongTextViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				E7492A2F155C3D9E00CBEE32 /* AppDelegate.h */,
+				E7492A30155C3D9E00CBEE32 /* AppDelegate.m */,
+				E7492A27155C3D9E00CBEE32 /* Supporting Files */,
+			);
+			path = BWLongTextViewControllerExample;
+			sourceTree = "<group>";
+		};
+		E7492A27155C3D9E00CBEE32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7492A28155C3D9E00CBEE32 /* BWLongTextViewControllerExample-Info.plist */,
+				E7492A29155C3D9E00CBEE32 /* InfoPlist.strings */,
+				E7492A2C155C3D9E00CBEE32 /* main.m */,
+				E7492A2E155C3D9E00CBEE32 /* BWLongTextViewControllerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7492A40155C3E1300CBEE32 /* BWLongTextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E7492A41155C3E1300CBEE32 /* BWLongTextViewController.h */,
+				E7492A42155C3E1300CBEE32 /* BWLongTextViewController.m */,
+			);
+			path = BWLongTextViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7492A1B155C3D9E00CBEE32 /* BWLongTextViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7492A3D155C3D9F00CBEE32 /* Build configuration list for PBXNativeTarget "BWLongTextViewControllerExample" */;
+			buildPhases = (
+				E7492A18155C3D9E00CBEE32 /* Sources */,
+				E7492A19155C3D9E00CBEE32 /* Frameworks */,
+				E7492A1A155C3D9E00CBEE32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWLongTextViewControllerExample;
+			productName = BWLongTextViewControllerExample;
+			productReference = E7492A1C155C3D9E00CBEE32 /* BWLongTextViewControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7492A13155C3D9E00CBEE32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E7492A16155C3D9E00CBEE32 /* Build configuration list for PBXProject "BWLongTextViewControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7492A11155C3D9E00CBEE32;
+			productRefGroup = E7492A1D155C3D9E00CBEE32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7492A1B155C3D9E00CBEE32 /* BWLongTextViewControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7492A1A155C3D9E00CBEE32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7492A2B155C3D9E00CBEE32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7492A18155C3D9E00CBEE32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7492A2D155C3D9E00CBEE32 /* main.m in Sources */,
+				E7492A31155C3D9E00CBEE32 /* AppDelegate.m in Sources */,
+				E7492A43155C3E1300CBEE32 /* BWLongTextViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7492A29155C3D9E00CBEE32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7492A2A155C3D9E00CBEE32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7492A3B155C3D9F00CBEE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7492A3C155C3D9F00CBEE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7492A3E155C3D9F00CBEE32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWLongTextViewControllerExample/BWLongTextViewControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "BWLongTextViewControllerExample/BWLongTextViewControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7492A3F155C3D9F00CBEE32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BWLongTextViewControllerExample/BWLongTextViewControllerExample-Prefix.pch";
+				INFOPLIST_FILE = "BWLongTextViewControllerExample/BWLongTextViewControllerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7492A16155C3D9E00CBEE32 /* Build configuration list for PBXProject "BWLongTextViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7492A3B155C3D9F00CBEE32 /* Debug */,
+				E7492A3C155C3D9F00CBEE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7492A3D155C3D9F00CBEE32 /* Build configuration list for PBXNativeTarget "BWLongTextViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7492A3E155C3D9F00CBEE32 /* Debug */,
+				E7492A3F155C3D9F00CBEE32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7492A13155C3D9E00CBEE32 /* Project object */;
+}
